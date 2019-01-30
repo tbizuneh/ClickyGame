@@ -1,50 +1,50 @@
 [
     {
       "id": 1,
-      "images": "kitty1.jpeg"
+      "image": "kitty1.jpeg"
     },
     {
       "id": 2,
-      "images": "kitty2.jpg"    
+      "image": "kitty2.jpg"    
     },
     {
       "id": 3,
-      "images": "kitty3.jpg"
+      "image": "kitty3.jpg"
     },
     {
       "id": 4,
-      "images": "kitty4.jpg" 
+      "image": "kitty4.jpg" 
     },
     {
       "id": 5,
-      "images": "kitty5.jpeg"
+      "image": "kitty5.jpeg"
     },
     {
       "id": 6,
-      "images": "kitty6.jpeg"
+      "image": "kitty6.jpeg"
     },
     {
       "id": 7,
-      "images": "kitty7.jpeg"
+      "image": "kitty7.jpeg"
     },
     {
       "id": 8,
-      "images": "kitty8.jpg"
+      "image": "kitty8.jpg"
     },
     {
       "id": 9,
-      "images": "kitty9.jpg"
+      "image": "kitty9.jpg"
     },
     {
       "id": 10,
-      "images": "kitty10.jpg"
+      "image": "kitty10.jpg"
     },
     {
       "id": 11,
-      "images": "kitty11.jpg"
+      "image": "kitty11.jpg"
     },
     {
       "id": 12,
-      "images": "kitty12.jpg"
+      "image": "kitty12.jpg"
     }
   ]

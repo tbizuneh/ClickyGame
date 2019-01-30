@@ -14,13 +14,13 @@ class App extends Component {
     score: 0
   };
 
-//when you click on a card ... the fish is taken out of the array
+//when you click on a card ... the cat is taken out of the array
   imageClick = event => {
     const currentCat = event.target.alt;
     const CatAlreadyClicked =
-      this.state.clickedat.indexOf(currentCat) > -1;
+      this.state.clickedCat.indexOf(currentCat) > -1;
 
-//if you click on a fish that has already been selected, the game is reset and cards reordered
+//if you click on a cat that has already been selected, the game is reset and cards reordered
     if (CatAlreadyClicked) {
       this.setState({
         cat: this.state.cat.sort(function(a, b) {
@@ -31,7 +31,7 @@ class App extends Component {
       });
         alert("You lose. Play again?");
 
-//if you click on an available fish, your score is increased and cards reordered
+//if you click on an available cat, your score is increased and cards reordered
     } else {
       this.setState(
         {
@@ -43,10 +43,10 @@ class App extends Component {
           ),
           score: this.state.score + 1
         },
-//if you get all 12 fish corrent you get a congrats message and the game resets        
+//if you get all 12 cats corrent you get a congrats message and the game resets        
         () => {
           if (this.state.score === 12) {
-            alert("Yay! You Win!");
+            alert("You Win!");
             this.setState({
               cat: this.state.cat.sort(function(a, b) {
                 return 0.5 - Math.random();
@@ -60,7 +60,7 @@ class App extends Component {
     }
   };
 
-//the order of components to be rendered: navbar, jumbotron, friendcard, footer 
+//the order of components to be rendered: navbar, jumbotron, friendcard
   render() {
     return (
       <div>
@@ -78,6 +78,7 @@ class App extends Component {
             />
           ))}
         </div>
+
 
       </div>
     );

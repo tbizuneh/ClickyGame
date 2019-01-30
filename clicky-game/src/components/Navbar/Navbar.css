@@ -16,15 +16,15 @@
   }
   
   .navbar {
-    background: #490549;
+    background: palevioletred;
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   }
   
   li {
-    color: white;
+    color: black;
     padding: 15px 0;
   }
   
   body {
-    font-size: 24px;
+    font-size: 30px;
   }
