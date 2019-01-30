@@ -67,7 +67,7 @@ class App extends Component {
         <Navbar 
           score={this.state.score}
         />
-        <Jumbotron />
+        
         <div className="wrapper">
           {this.state.cat.map(cat => (
             <FriendCard
@@ -79,7 +79,7 @@ class App extends Component {
           ))}
         </div>
 
-
+        <Jumbotron />
       </div>
     );
   }
